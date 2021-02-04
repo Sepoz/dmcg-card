@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.full-card img {
+    width: 320px;
+}
+
+.container {
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    height: 430px;
+    width: 320px;
+    border-radius: 15px;
+    box-shadow: 0 25px 20px rgba(0, 0, 0, 0.3), 0px 0px 50px rgba(0, 0, 0, 0.3);
+    transform-style: preserve-3d;
+    perspective: 800px;
+}
+
+.name {
+    position: absolute;
+    top: 19px;
+    left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.description {
+    position: absolute;
+    top: 328px;
+    left: -37px;
+    padding-right: 56px;
+    padding-left: 56px;
+}
+
+.circleLogo {
+    position: absolute;
+    top: 328px;
+    left: 106px;
+    padding-right: 123px;
+    padding-left: 123px;
+}
+
+.bottomBar {
+    position: absolute;
+    top: 407px;
+    left: 1px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
