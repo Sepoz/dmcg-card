@@ -16,14 +16,14 @@ function App() {
     const [rotateY, setRotateY] = useState("rotateY(0deg)");
 
     const handleMouseMove = (e) => {
-        setXAxis((window.innerWidth / 2 - e.pageX) / 10);
+        setXAxis((window.innerWidth / 2 - e.pageX) / 8);
         setRotateX(`rotateX(${yAxis}deg)`);
-        setYAxis((window.innerHeight / 2 - e.pageY) / 10);
+        setYAxis((window.innerHeight / 2 - e.pageY) / 8);
         setRotateY(`rotateY(${xAxis}deg)`);
     };
 
     const handleMouseEnter = () => {
-        setTranslate("translateZ(15px)");
+        setTranslate("translateZ(25px)");
     };
 
     const handleMouseLeave = () => {
